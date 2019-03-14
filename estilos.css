@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+#logotipo {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+   background-color: lightgray;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  img:not(#logotipo) {
+    border: 3px solid black;
+    border-radius: 15px;
+  }
+  
+p {
+    text-align: justify;
+    padding: 4px;
+}
+h1, h2 {
+    font-family:'Lobster', cursive;
+    color : maroon;
+  }
+
+a:link {
+	text-decoration: unset;
+	color: #f44186; 
+}
+a:visited{
+	text-decoration: unset;
+    color: #3e0853;
+}
+a:hover{
+	text-decoration: underline;
+    color : rgb(250, 124, 40);
+}
+a:active{
+	text-decoration: underline;
+	color: #f502f5;
+}
+
+a[href^="http"] {
+	display: inline-block;
+	background-image: url(../img/globo.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-left: 18px;
+}
+
+.steps {
+  background-color: maroon;
+  font-size: 30px;
+	padding: 1px 15px 1px 15px;
+  color: white;
+}
+
+.name-steps {
+  font-size: 25px;
+}
+
+.note {
+	opacity: 0.7;
+}
+
+img, iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
