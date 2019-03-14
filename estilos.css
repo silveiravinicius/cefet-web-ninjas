@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lilita+One');
 #logotipo {
     width: 200px;
     display: block;
@@ -14,10 +14,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  img:not(#logotipo) {
+img:not(#logotipo) {
     border: 3px solid black;
     border-radius: 15px;
-  }
+}
   
 p {
     text-align: justify;
@@ -25,24 +25,25 @@ p {
 }
 h1, h2 {
     font-family:'Lobster', cursive;
-    color : maroon;
+    color: maroon;
+    text-align: center
   }
 
 a:link {
 	text-decoration: unset;
-	color: #f44186; 
+	color: maroon; 
 }
 a:visited{
 	text-decoration: unset;
-    color: #3e0853;
+    color: darkmagenta;
 }
 a:hover{
 	text-decoration: underline;
-    color : rgb(250, 124, 40);
+    color : salmon;
 }
 a:active{
 	text-decoration: underline;
-	color: #f502f5;
+	color: darksalmon;
 }
 
 a[href^="http"] {
